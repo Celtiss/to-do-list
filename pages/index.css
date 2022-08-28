@@ -1,0 +1,14 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/todolist/todolist.css');
+@import url('../blocks/todolist/__title/todlist__title.css');
+@import url(../blocks/todolist-form/todolist-form.css);
+@import url('../blocks/todolist-form/__input/todolist-form__input.css');
+@import url('../blocks/todolist-form/__button/todolist-form__button.css');
+
+@import url('../blocks/todolist-items/todolist-items.css');
+@import url('../blocks/todolist-item/todolist-item.css');
+@import url('../blocks/todolist-item/__text/todolist-item__text.css');
+@import url('../blocks/todolist-item/__buttons/todolist-item__buttons.css');
+@import url('../blocks/todolist-item/__delete/todolist-item__delete.css');
+@import url('../blocks/todolist-item/__complete/todolist-item__complete.css');

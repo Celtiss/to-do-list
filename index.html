@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>ToDoList</title>
+
+</head>
+<body class="page">
+    <div class="todolist">
+        <h1 class="todlist__title">ToDoList</h1>
+        <form class="todolist-form">
+            <input type="text" class="todolist-form__input"/>
+            <button type="submit" class="todolist-form__button">Добавить</button>
+        </form>
+        <section class="todolist-items">
+            <article class="todolist-item">
+                <span class="todolist-item__text">Задача 1</span>
+                <div class="todolist-item__buttons">
+                    <input type="checkbox" class="todolist-item__complete"></input>
+                    <button class="todolist-item__delete"></button>
+                </div>
+            </article>
+            <article class="todolist-item">
+                <span class="todolist-item__text">Задача 2</span>
+                <div class="todolist-item__buttons">
+                    <input type="checkbox" class="todolist-item__complete"></input>
+                    <button class="todolist-item__delete"></button>
+                </div>
+            </article>
+        </section>
+    </div>
+</body>
+</html>

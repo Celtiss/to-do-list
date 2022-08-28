@@ -1,0 +1,4 @@
+.todolist-item__buttons {
+    display: flex;
+    column-gap: 5px;
+}
