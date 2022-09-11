@@ -1,4 +1,11 @@
 .todolist-item__complete {
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 570px) {
+    .todolist-item__complete {
+        display: none;
+    }
 }

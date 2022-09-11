@@ -1,9 +1,21 @@
 .todolist-item__delete {
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
     background-color: rgba(0, 0, 0, 0);
     background-image: url('../../../images/delete-icon.svg');
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.todolist-item__delete:hover {
+    opacity: .4;
+}
+
+@media screen and (max-width: 570px) {
+    .todolist-item__delete {
+        display: none;
+    }
 }

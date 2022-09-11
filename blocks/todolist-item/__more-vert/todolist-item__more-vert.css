@@ -1,0 +1,22 @@
+.todolist-item__more-vert {
+    display: none;
+    background-image: url('../../../images/more-vert-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.todolist-item__more-vert:hover {
+    opacity: .4;
+}
+
+@media screen and (max-width: 570px) {
+    .todolist-item__more-vert {
+        display: block;
+    }
+}

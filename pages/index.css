@@ -10,5 +10,6 @@
 @import url('../blocks/todolist-item/todolist-item.css');
 @import url('../blocks/todolist-item/__text/todolist-item__text.css');
 @import url('../blocks/todolist-item/__buttons/todolist-item__buttons.css');
+@import url('../blocks/todolist-item/__more-vert/todolist-item__more-vert.css');
 @import url('../blocks/todolist-item/__delete/todolist-item__delete.css');
 @import url('../blocks/todolist-item/__complete/todolist-item__complete.css');

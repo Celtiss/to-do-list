@@ -10,26 +10,24 @@
 <body class="page">
     <div class="todolist">
         <h1 class="todlist__title">ToDoList</h1>
-        <form class="todolist-form">
-            <input type="text" class="todolist-form__input"/>
-            <button type="submit" class="todolist-form__button">Добавить</button>
+        <form action="#" name="todolistForm" class="todolist-form">
+            <input name="newNodeInput" type="text" class="todolist-form__input" minlength="2" maxlength="108" required />
+            <button type="submit" class="todolist-form__button"></button>
         </form>
         <section class="todolist-items">
-            <article class="todolist-item">
-                <span class="todolist-item__text">Задача 1</span>
-                <div class="todolist-item__buttons">
-                    <input type="checkbox" class="todolist-item__complete"></input>
-                    <button class="todolist-item__delete"></button>
-                </div>
-            </article>
-            <article class="todolist-item">
-                <span class="todolist-item__text">Задача 2</span>
-                <div class="todolist-item__buttons">
-                    <input type="checkbox" class="todolist-item__complete"></input>
-                    <button class="todolist-item__delete"></button>
-                </div>
-            </article>
         </section>
     </div>
+
+    <template class="note-template">
+        <article class="todolist-item">
+            <span class="todolist-item__text">Сделать уборку, выгулить собаку, пригото ви x ть ужин, сходить в химчистку</span>
+            <div class="todolist-item__buttons">
+                <button type="button" class="todolist-item__more-vert"></button>
+                <input type="checkbox" class="todolist-item__complete"></input>
+                <button type="button" class="todolist-item__delete"></button>
+            </div>
+        </article>
+    </template>
+    <script type="module" src="./pages/index.js"></script>
 </body>
 </html>
